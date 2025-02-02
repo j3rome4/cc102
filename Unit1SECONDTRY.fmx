@@ -1,0 +1,70 @@
+object Frame1: TFrame1
+  Size.Width = 312.000000000000000000
+  Size.Height = 412.000000000000000000
+  Size.PlatformDefault = False
+  object Question: TLabel
+    Position.X = 40.000000000000000000
+    Position.Y = 72.000000000000000000
+    Text = 'Question'
+    TabOrder = 0
+  end
+  object Points: TLabel
+    Position.X = 176.000000000000000000
+    Position.Y = 32.000000000000000000
+    Text = 'Points'
+    TabOrder = 1
+    object Label3: TLabel
+      Position.X = 48.000000000000000000
+      Text = 'Label3'
+      TabOrder = 4
+    end
+  end
+  object AnswerRadioButton1: TRadioButton
+    Position.X = 32.000000000000000000
+    Position.Y = 144.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 19.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'AnswerRadioButton1'
+    OnChange = AnswerRadioButton1Change
+  end
+  object AnswerRadioButton2: TRadioButton
+    Position.X = 48.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 19.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'AnswerRadioButton2'
+    OnChange = AnswerRadioButton2Change
+  end
+  object AnswerRadioButton3: TRadioButton
+    Position.X = 48.000000000000000000
+    Position.Y = 240.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 19.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'AnswerRadioButton3'
+    OnChange = AnswerRadioButton3Change
+  end
+  object AnswerRadioButton4: TRadioButton
+    Position.X = 48.000000000000000000
+    Position.Y = 296.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 19.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = 'AnswerRadioButton4'
+    OnChange = AnswerRadioButton4Change
+  end
+  object Confirm: TButton
+    Position.X = 48.000000000000000000
+    Position.Y = 336.000000000000000000
+    TabOrder = 6
+    Text = 'Confirm'
+    TextSettings.Trimming = None
+    OnClick = ConfirmClick
+  end
+end
